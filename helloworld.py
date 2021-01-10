@@ -6,4 +6,4 @@ print (msg)
 
 print ("This is a test msg.")
 
-print ("This is a test msg, msg01.")
+print ("This is a test msg, msg02.")
