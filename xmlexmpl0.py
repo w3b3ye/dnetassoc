@@ -22,7 +22,8 @@ print("***All name in food using findall***")
 for x in myroot.findall("food"):
     name=x.find("name").text
     price=x.find("price").text
-    print(name,price)
+    calories=x.find("calories").text
+    print(name,price,calories)
 
 
 
