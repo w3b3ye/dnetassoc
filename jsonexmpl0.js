@@ -11,7 +11,7 @@ myObj = {
         {
             "id": "2",
             "FirstName": "Cob",
-            "LastName": "Queen",
+            "LastName": ["Queen", "Princess"],
             "Email": "cob.q@test.com"
         },
         {
@@ -26,3 +26,5 @@ myObj = {
 
 console.log(myObj.People[1].FirstName);
 console.log(typeof myObj.People[1].FirstName);
+
+console.log(myObj.People[1].LastName[1]);
