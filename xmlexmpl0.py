@@ -28,7 +28,8 @@ for x in myroot.findall("food"):
     calories=x.find("calories").text
     print(name,price,calories)
 
-#Change description by adding additional text
+#Change description by adding additional text, add an attribute to description named as updated with 
+#value set to yes
 for x in myroot.iter("description"):
     a=str(x.text)+"+newly added"
     x.text=str(a)
